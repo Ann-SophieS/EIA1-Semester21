@@ -9,6 +9,7 @@ h1 {
     font-size:  150px;
     color:black;
     margin-top: 50px;
+    width: fit-content;
 }
 h2{
     font-family: sans-serif;
