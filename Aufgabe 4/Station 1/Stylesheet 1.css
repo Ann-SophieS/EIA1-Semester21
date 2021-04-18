@@ -1,0 +1,49 @@
+body {
+    background-image: url(bg.png);
+}
+
+p {
+    color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    top: 200;
+}
+
+.wrapper {
+    position: absolute;
+    height: 400px;
+    width: 600px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background-image: url(wrapperbg.png);
+}
+
+.penguin {
+    position: absolute;
+    bottom: 20px;
+    right: -50px;
+}
+
+.shell {
+    position: absolute;
+    bottom:-15px;
+    left:-60px;
+}
+
+
+.schrift {
+    color: ivory;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    position: absolute;
+    top: 180px;
+    left: 60px;
+}
+    
+.überschrift {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+
+}

@@ -1,0 +1,44 @@
+body{
+    background-image: url(bg.png);
+}
+.Hintergrundbild{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+}
+h1{
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.Text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+}
+.Text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 500px;
+    column-count: 3;
+	column-gap: 60px;
+    margin-top: 50px;
+}
+.Text3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    width: 500px;
+    column-count: 2;
+    column-gap: 60px;
+    margin-top: 40px;
+}

@@ -1,0 +1,11 @@
+.Rand{
+    background-color: burlywood;
+    color: grey;
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 7px 25px 7px 25px;
+    margin: 30px;  
+    line-height: 6em;  
+    text-decoration: underline;
+    border-radius: 10px;   
+}

@@ -1,0 +1,59 @@
+body{
+    background-image: url(bg.png);    
+}
+.Hintergrund{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    top: 10%;
+    left: 12.5%;
+}
+.Muschel_1 {
+    width: 70px;
+    height: 65px;
+    background: url(muschel.png) no-repeat;
+    right: 70%;
+    top: 45%;
+    position: absolute;
+    display: inline-block;
+}
+
+.Muschel_1:hover {
+    background: url(muschel_perle.png);
+}
+
+.Muschel_2 {
+    width: 70px;
+    height: 65px;
+    background: url(muschel.png) no-repeat;
+    right: 45%;
+    top: 60%;
+    position: absolute;
+    display: inline-block;
+}
+
+.Muschel_2:hover {
+    background: url(muschel_perle.png);
+}
+
+.Muschel_3 {
+    width: 70px;
+    height: 65px;
+    background: url(muschel.png) no-repeat;
+    right: 21%;
+    top: 45%;
+    position: absolute;
+    display: inline-block;
+}
+.Muschel_3:hover {
+    background: url(muschel_perle.png);
+}

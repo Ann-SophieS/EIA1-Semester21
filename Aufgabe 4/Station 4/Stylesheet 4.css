@@ -1,0 +1,40 @@
+body{
+    background-image: url(bg.png);
+}
+.Hintergrundbild{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    top: 6%;
+    right: 65%;
+    position: absolute;
+    text-decoration: underline;  
+}
+form{
+    position: absolute;
+    top: 25%;
+    height: 40%;
+    left: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 14px;
+    max-width: 300px;
+}
+.Name{
+    width: 250px;
+    height: 40px;
+}
+.Inhalt{
+    width: 350px;
+    height: 60px;
+}
+.button{
+    margin-left: 30px;
+    margin-top: 7px;
+}
