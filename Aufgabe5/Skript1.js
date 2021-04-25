@@ -41,5 +41,3 @@ console.log("Die Emission von " + continentAustralia + " ist: " + Australia2018 
 console.log("Relativ zu Gesamtemission der Welt verursacht " + continentAustralia + " damit " + Math.round(Australia2018 / entireWorld2018 * 100) + "%");
 console.log("Für " + continentAfrica + " hat sich 2018 im Vergleich zu 2008 die Emission um " + Math.round((Australia2018 - Australia2008) / Australia2008 * 100) + "% verändert");
 console.log("2018 im Vergleich zu 2008 sind das " + Math.round(Australia2018 - Australia2008) + "kg CO2");
-//# sourceMappingURL=script.js.map
-//# sourceMappingURL=Skript1.js.map
