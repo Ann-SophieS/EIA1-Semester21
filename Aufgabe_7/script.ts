@@ -1,15 +1,17 @@
-var sounds = [];
-sounds[0] = new Audio("sounds/A.mp3");
-sounds[1] = new Audio("sounds/C.mp3");
-sounds[2] = new Audio("sounds/F.mp3");
-sounds[3] = new Audio("sounds/G.mp3");
-sounds[4] = new Audio("sounds/hihat.mp3");
-sounds[5] = new Audio("sounds/kick.mp3");
-sounds[6] = new Audio("sounds/laugh1.mp3");
-sounds[7] = new Audio("sounds/laugh2.mp3");
-sounds[8] = new Audio("sounds/snare.mp3");
+
+let sounds: HTMLAudioElement[] = 
+[new Audio ("sounds/A.mp3"),
+new Audio("sounds/C.mp3"),
+new Audio("sounds/F.mp3"),
+new Audio("sounds/G.mp3"),
+new Audio("sounds/hihat.mp3"),
+new Audio("sounds/kick.mp3"),
+new Audio("sounds/laugh1.mp3"),
+new Audio("sounds/laugh2.mp3"),
+new Audio("sounds/snare.mp3")];
 
 window.addEventListener("load", function () {
+
     document.querySelector("#tone1").addEventListener("click", function () {
         playSample(0);
     });
@@ -46,18 +48,19 @@ window.addEventListener("load", function () {
         playSample(8);
     });
 
-
-    function playSample(chooseSample) {
+    function playSample(chooseSample: number) {
         sounds[chooseSample].play();
     }
 
+    let beat: HTMLAudioElement[] = [];
+    beat[0] = sounds[5],
+    beat[1] = sounds[8];
 
-    var beat = [];
-    beat[0] = ("sounds/kick.mp3");
-    beat[1] = ("sounds/snare.mp3");
-    document.querySelector('#play-button').addEventListener("click", function () {
+    document.querySelector('#playButton').addEventListener("click", function () {
         EigenerBeat();
     });
+
+
     function EigenerBeat() {
         setTimeout(function () { playAudio(beat[0]); }, 500);
         setTimeout(function () { playAudio(beat[1]); }, 1000);
@@ -65,8 +68,9 @@ window.addEventListener("load", function () {
         setTimeout(function () { playAudio(beat[0]); }, 1800);
         setTimeout(function () { playAudio(beat[1]); }, 2000);
     }
-    function playAudio(meinz) {
-        var beat = new Audio(meinz);
-        beat.play();
+
+    function playAudio(meinz: HTMLAudioElement) {
+        meinz.play()
     }
+
 });
