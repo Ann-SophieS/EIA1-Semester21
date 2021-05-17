@@ -1,0 +1,161 @@
+html, body {
+    height: 100%;
+
+}
+
+body{
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.drumbox {
+    display: flex;
+    width: 550px;
+    height: 700px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    
+    .drumbutton {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    }
+.drumButton:hover {
+cursor: pointer;
+}
+
+#playButton {
+    position:absolute;
+    color: #ffffff;
+    top: 500px;
+    left: 50%;
+    margin-top: 350px;
+    margin-left:-50px;
+    font-size: 80px;
+}
+
+#playButton:hover {
+    color: #89c0ff;
+}
+
+#stopButton {
+    position:absolute;
+    color: #ffffff;
+    top: 500px;
+    left: 50%;
+    margin-left:-50px;
+    margin-top: 350px;
+    font-size: 80px;
+}
+
+#stopButton:hover {
+    color: #89c0ff;
+}
+
+#deleteButton {
+    position:absolute;
+    color: #ffffff;
+    top: 500px;
+    left: 85%;
+    margin-left:-40px;
+    margin-top: 350px;
+    font-size: 80px;
+}
+
+#deleteButton:hover{
+    color: #89c0ff;
+}
+
+#remixButton {
+    position:absolute;
+    color: #ffffff;
+    top: 500px;
+    left: 15%;
+    margin-left:-40px;
+    margin-top: 350px;
+    font-size: 80px;
+}
+
+#remixButton:hover{
+    color: #89c0ff;
+}
+
+.is-hidden {
+    display: none !important;
+}
+
+
+#tone1 {
+    background-color: #e8a2a2;
+    }
+#tone1:hover {
+    background-color: #e16f6f;
+    }
+    
+#tone2 {
+    background-color: #ffbc7f;
+    }
+#tone2:hover {
+    background-color: #fba558;
+    }
+    
+#tone3 {
+    background-color: #ffd26d;
+    }
+#tone3:hover {
+    background-color: #febb24;
+    }
+    
+#tone4 {
+    background-color: #ddffab;
+    }
+#tone4:hover {
+    background-color: #b6fd50;
+    }
+    
+#tone5 {
+    background-color: #c5feec;
+    }
+#tone5:hover {
+    background-color: #89ffd8;
+    }
+    
+#tone6 {
+    background-color: #89c0ff;
+    }
+#tone6:hover {
+    background-color: #4398f8;
+    }
+    
+#tone7 {
+    background-color: #d5b9ff;
+    }
+#tone7:hover {
+    background-color: #a26eef;
+    }
+    
+#tone8 {
+    background-color: #f7c7ff;
+    }
+#tone8:hover {
+    background-color: #e672fa;
+    }
+    
+#tone9 {
+    background-color: #ffbbe2;
+    }
+#tone9:hover {
+    background-color: #ed43a6;
+    }
